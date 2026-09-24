@@ -48,4 +48,20 @@
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     /* grid-template-rows: repeat(2, 100px); */
     grid-auto-rows: 100px;
+    grid-auto-flow: dense;
+}
+
+.vertical{
+    /* grid-row: auto / span 2; */
+    grid-row: span 2;
+}
+
+.horizontal{
+    /* grid-column: auto / span 2; */
+    grid-column: span 2;
+}
+
+.big{
+    grid-column: span 2;
+    grid-row: span 2;
 }
