@@ -97,4 +97,11 @@
     grid-template-rows: repeat(3, 100px);
     justify-content: center;
     align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.last{
+    justify-self: end;
+    align-self: end;
 }
