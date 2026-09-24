@@ -66,13 +66,13 @@
     grid-row: span 2;
 }
 
-.container{
+/* .container{
     height: 100%;
     display: grid;
     gap: 3px;
     grid-template-columns: [main-start]1fr [content-start] 5fr[content-end main-end];
     grid-template-rows: [main-start]50px [content-start] auto [content-end] 50px [main-end];
-}
+} */
 
 .header{
     /* grid-column: main-start / main-end; */
@@ -86,4 +86,15 @@
 .footer{
     /* grid-column: main-start / main-end; */
     grid-column: main;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    gap: 3px;
+    border: 1px solid #000;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    justify-content: center;
+    align-content: center;
 }
